@@ -1,0 +1,182 @@
+{
+    "MasterNodeConfig": {
+        "private_key": "bdecde5422138c8442d3e79582443fb83502d961baff2d962ef39ec11583546a",
+        "Peer": {
+            "public_key": "58ce0eacefdbeb54b8ec5d68a74c49324c189185b6e8e498d9f4beb4033a599d1d68cb13b206f9abc2bb7899c66c5f458926451689ba3e417a713f1bf89382b6",
+            "node_endpoint": {
+                "ip_address": "127.0.0.1",
+                "port": "9101"
+            },
+            "client_endpoint": {
+                "ip_address": "127.0.0.1",
+                "port": "9201"
+            },
+            "remote_cmd_endpoint": {
+                "ip_address": "127.0.0.1",
+                "port": "9301"
+            },
+            "account_endpoint": {
+                "ip_address": "127.0.0.1",
+                "port": "9401"
+            },
+            "stake": "1",
+            "PrometheusPullConfig": {
+                "bind_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9501"
+                },
+                "access_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9501"
+                },
+                "url_path": "/metrics"
+            }
+        },
+        "leveldb_dir": "/tmp/db/MasterNode_1",
+        "evm_state_dir": "/tmp/evm_db/MasterNode_1"
+    },
+    "NetworkConfiguration": {
+        "heartbeat_milliseconds": "100",
+        "max_transactions_per_event": "101",
+        "seeds": [
+            {
+                "public_key": "f1bcdd1af52883c3cd47c51eb7dba40ec656bebedff45bbbd68477239b1385a73862484bd3a17615886fc138d6dd6e098819cf1149f4a6c23a297afaf8a9ee10",
+                "node_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9100"
+                },
+                "client_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9200"
+                },
+                "remote_cmd_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9300"
+                },
+                "account_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9400"
+                },
+                "stake": "1",
+                "PrometheusPullConfig": {
+                    "bind_endpoint": {
+                        "ip_address": "127.0.0.1",
+                        "port": "9500"
+                    },
+                    "access_endpoint": {
+                        "ip_address": "127.0.0.1",
+                        "port": "9500"
+                    },
+                    "url_path": "/metrics"
+                }
+            },
+            {
+                "public_key": "58ce0eacefdbeb54b8ec5d68a74c49324c189185b6e8e498d9f4beb4033a599d1d68cb13b206f9abc2bb7899c66c5f458926451689ba3e417a713f1bf89382b6",
+                "node_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9101"
+                },
+                "client_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9201"
+                },
+                "remote_cmd_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9301"
+                },
+                "account_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9401"
+                },
+                "stake": "1",
+                "PrometheusPullConfig": {
+                    "bind_endpoint": {
+                        "ip_address": "127.0.0.1",
+                        "port": "9501"
+                    },
+                    "access_endpoint": {
+                        "ip_address": "127.0.0.1",
+                        "port": "9501"
+                    },
+                    "url_path": "/metrics"
+                }
+            },
+            {
+                "public_key": "8ce79ba7fe836eb3a49be95aad8bcfb8fdb338a57d3ffa3f52eb3353173e5956967faf2a2eaf9e82cb1ee4a90a57d0df56b9152033553b4e36d82b85088d5157",
+                "node_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9102"
+                },
+                "client_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9202"
+                },
+                "remote_cmd_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9302"
+                },
+                "account_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9402"
+                },
+                "stake": "1",
+                "PrometheusPullConfig": {
+                    "bind_endpoint": {
+                        "ip_address": "127.0.0.1",
+                        "port": "9502"
+                    },
+                    "access_endpoint": {
+                        "ip_address": "127.0.0.1",
+                        "port": "9502"
+                    },
+                    "url_path": "/metrics"
+                }
+            },
+            {
+                "public_key": "f874615cdf839384f42f55315074949b50fd40899b84be1346bb8ec278dc7d70402ffb1e0f6561c42c2844e2d0f991daf3757e1f0dad7b39b97cf56ef63d4506",
+                "node_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9103"
+                },
+                "client_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9203"
+                },
+                "remote_cmd_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9303"
+                },
+                "account_endpoint": {
+                    "ip_address": "127.0.0.1",
+                    "port": "9403"
+                },
+                "stake": "1",
+                "PrometheusPullConfig": {
+                    "bind_endpoint": {
+                        "ip_address": "127.0.0.1",
+                        "port": "9503"
+                    },
+                    "access_endpoint": {
+                        "ip_address": "127.0.0.1",
+                        "port": "9503"
+                    },
+                    "url_path": "/metrics"
+                }
+            }
+        ]
+    },
+    "PredictionConfig": {
+        "prediction_algorithm": "disabled",
+        "prediction_buffer_size": "100"
+    },
+    "KeyStoreConfig": {
+        "account_endpoint": {
+            "ip_address": "127.0.0.1",
+            "port": "9401"
+        },
+        "keys_file_path": "/tmp/keystore/MasterNode_1/keys.info",
+        "secrets_path": "/tmp/keystore/MasterNode_1/keys"
+    },
+    "host_id": "MasterNode_1",
+    "config_path": "/tmp/nodes/MasterNode_1"
+}
