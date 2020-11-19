@@ -9,7 +9,7 @@ rezultata. Verifikaciju osigurava algoritam koji omogućuje da su svi rezultati 
 zadataka na svim nodeovima Tolar HashNet-a jednaki te se oni u tom obliku spremaju u
 bazu podataka svakog nodea (sukladno tome njihove pojedinačne baze podataka su
 ujedno i replike jedna druge).
-Svrha ovog zadatka je implementirati jednostavan integracijski test koji će provjeriti da
+Svrha ovog projekta je implementirati jednostavan integracijski test koji će provjeriti da
 mreža nodeva radi sukladno načelima spomenutog algoritma na način da se prate
 metrike koje producira svaki od nodeova.
 Svaki node bilježi metrike samo za sebe i te metrike su dostupne na određenom portu
@@ -20,7 +20,7 @@ testiranje kao što je prikazano na sljedećoj shemi:
 Upute za pokretanje lokalne Tolar HashNet mreže
 U sklopu zadatka nužno je pridržavati se navedenih uputa za pokretanje Tolar HashNet
 mreže jer su one neophodne da bi se implementirao korektni integracijski test.
-Uz tekst zadatka priložena je tolard aplikacija s kojom je moguće pokrenuti jedan node
+Uz tekst projekta priložena je tolard aplikacija s kojom je moguće pokrenuti jedan node
 na način da se eksplicitno kroz argumente aplikacije preda put do konfiguracije tog
 pojedinačnog nodea. Svaki node ima svoju konfiguraciju jer se razlikuju portovi, gdje su
 locirane baze podataka itd.
@@ -73,7 +73,7 @@ trenutku, npr. pomoću curl naredbe:
 curl -XGET http://localhost:9500/metrics
 Rezultat izgleda poprilično glomazno (ovo je samo isječak od svega što se nudi pod
 metrikama):
-# HELP exposer_bytes_transferred bytesTransferred to metrics services
+"# HELP exposer_bytes_transferred bytesTransferred to metrics services
 # TYPE exposer_bytes_transferred counter
 exposer_bytes_transferred 71528.000000
 # HELP exposer_total_scrapes Number of times metrics were scraped
@@ -95,7 +95,7 @@ tolar_rejected_events_count 0.000000
 # TYPE tolar_rejected_transactions_count
 counter tolar_rejected_transactions_count 0.000000
 # TYPE tolar_agreed_events_count counter
-tolar_agreed_events_count 0.000000
+tolar_agreed_events_count 0.000000"
 
 Ideja je koncentrirati se samo na jednu određenu metriku, a to je
 tolar_total_blocks. Samo nju je potrebno ispitati u integracijskom testu.
