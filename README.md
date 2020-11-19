@@ -73,7 +73,7 @@ trenutku, npr. pomoću curl naredbe:
 curl -XGET http://localhost:9500/metrics
 Rezultat izgleda poprilično glomazno (ovo je samo isječak od svega što se nudi pod
 metrikama):
-"# HELP exposer_bytes_transferred bytesTransferred to metrics services
+# HELP exposer_bytes_transferred bytesTransferred to metrics services
 # TYPE exposer_bytes_transferred counter
 exposer_bytes_transferred 71528.000000
 # HELP exposer_total_scrapes Number of times metrics were scraped
@@ -95,7 +95,7 @@ tolar_rejected_events_count 0.000000
 # TYPE tolar_rejected_transactions_count
 counter tolar_rejected_transactions_count 0.000000
 # TYPE tolar_agreed_events_count counter
-tolar_agreed_events_count 0.000000"
+tolar_agreed_events_count 0.000000
 
 Ideja je koncentrirati se samo na jednu određenu metriku, a to je
 tolar_total_blocks. Samo nju je potrebno ispitati u integracijskom testu.
