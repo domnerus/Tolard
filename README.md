@@ -1,6 +1,6 @@
 # Tolard
 Unit testing of nodes written in Python
-Zadatak – QA
+Projekt – QA
 
 Tolar HashNet je distribuirana mreža nodeova koji na decentralizirani način izvršavaju
 određene zadatke koji dolaze od strane korisnika. Svaki node u mreži je u stanju
